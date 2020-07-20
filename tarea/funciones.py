@@ -12,9 +12,6 @@ def getArgsPath():
     Student_path= "estudiante.csv"
     Course_path= "cursos.csv"
     Grades_path= "notas.csv"
-
-    print(len(sys.argv))
-
     try:
         if len(sys.argv)>0:
             csvPath= str(sys.argv[1])

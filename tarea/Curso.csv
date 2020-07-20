@@ -1,321 +1,321 @@
-1,4,Research and Development
-2,2,Training
+1,4,Law
+2,2,Education
 3,6,Legal
 4,3,Sales
-5,6,Support
+5,6,Mathematics
 6,5,Sales
 7,5,Accounting
 8,6,Accounting
-9,2,Support
-10,6,Services
-11,6,Services
-12,3,Business Development
-13,3,Training
-14,2,Training
+9,2,Mathematics
+10,6,Mathematics
+11,6,Mathematics
+12,3,Fisica
+13,3,Education
+14,2,Education
 15,6,Marketing
-16,5,Business Development
-17,4,Services
+16,5,Fisica
+17,4,Mathematics
 18,5,Human Resources
-19,6,Research and Development
-20,4,Research and Development
+19,6,Law
+20,4,Law
 21,4,Sales
 22,4,Human Resources
 23,3,Accounting
-24,5,Support
-25,5,Training
-26,4,Business Development
-27,4,Business Development
+24,5,Mathematics
+25,5,Education
+26,4,Fisica
+27,4,Fisica
 28,3,Accounting
-29,5,Services
+29,5,Mathematics
 30,6,Legal
 31,5,Sales
-32,2,Services
+32,2,Mathematics
 33,3,Legal
 34,5,Engineering
-35,3,Business Development
+35,3,Fisica
 36,3,Sales
-37,4,Business Development
+37,4,Fisica
 38,5,Sales
-39,3,Training
+39,3,Education
 40,6,Engineering
 41,5,Human Resources
 42,3,Accounting
-43,2,Support
+43,2,Mathematics
 44,6,Accounting
 45,5,Engineering
-46,6,Support
+46,6,Mathematics
 47,3,Engineering
-48,4,Product Management
+48,4,philosophy
 49,2,Engineering
 50,3,Sales
-51,4,Training
+51,4,Education
 52,4,Engineering
 53,3,Accounting
-54,5,Research and Development
+54,5,Law
 55,2,Accounting
 56,2,Accounting
 57,5,Marketing
-58,6,Services
-59,2,Product Management
+58,6,Mathematics
+59,2,philosophy
 60,5,Engineering
-61,5,Support
+61,5,Mathematics
 62,2,Human Resources
-63,3,Business Development
+63,3,Fisica
 64,3,Sales
-65,6,Business Development
-66,3,Support
-67,5,Training
-68,4,Support
-69,4,Services
+65,6,Fisica
+66,3,Mathematics
+67,5,Education
+68,4,Mathematics
+69,4,Mathematics
 70,3,Sales
-71,4,Product Management
-72,2,Support
-73,6,Product Management
+71,4,philosophy
+72,2,Mathematics
+73,6,philosophy
 74,4,Legal
 75,2,Sales
 76,3,Accounting
-77,4,Support
-78,4,Support
+77,4,Mathematics
+78,4,Mathematics
 79,2,Sales
 80,5,Legal
-81,5,Research and Development
-82,2,Support
+81,5,Law
+82,2,Mathematics
 83,4,Human Resources
-84,4,Services
-85,2,Business Development
-86,5,Business Development
+84,4,Mathematics
+85,2,Fisica
+86,5,Fisica
 87,2,Engineering
-88,6,Product Management
-89,2,Product Management
+88,6,philosophy
+89,2,philosophy
 90,2,Accounting
 91,2,Accounting
-92,3,Business Development
-93,4,Product Management
+92,3,Fisica
+93,4,philosophy
 94,5,Marketing
 95,3,Marketing
 96,3,Accounting
-97,6,Services
-98,6,Business Development
+97,6,Mathematics
+98,6,Fisica
 99,3,Marketing
 100,4,Engineering
 101,5,Engineering
-102,4,Business Development
+102,4,Fisica
 103,4,Accounting
-104,5,Training
-105,6,Support
-106,3,Services
+104,5,Education
+105,6,Mathematics
+106,3,Mathematics
 107,4,Engineering
 108,5,Marketing
 109,3,Human Resources
-110,4,Services
-111,6,Business Development
+110,4,Mathematics
+111,6,Fisica
 112,5,Human Resources
-113,2,Support
-114,3,Support
+113,2,Mathematics
+114,3,Mathematics
 115,4,Legal
-116,2,Training
+116,2,Education
 117,6,Human Resources
-118,3,Support
-119,2,Training
-120,6,Services
-121,6,Product Management
-122,3,Support
+118,3,Mathematics
+119,2,Education
+120,6,Mathematics
+121,6,philosophy
+122,3,Mathematics
 123,4,Legal
 124,6,Legal
 125,4,Human Resources
-126,5,Training
+126,5,Education
 127,2,Sales
 128,2,Sales
-129,4,Training
+129,4,Education
 130,2,Human Resources
-131,4,Support
+131,4,Mathematics
 132,4,Marketing
-133,2,Services
-134,3,Business Development
+133,2,Mathematics
+134,3,Fisica
 135,3,Engineering
-136,3,Support
-137,3,Training
+136,3,Mathematics
+137,3,Education
 138,5,Human Resources
-139,3,Research and Development
-140,5,Support
+139,3,Law
+140,5,Mathematics
 141,5,Legal
 142,6,Marketing
 143,6,Human Resources
-144,6,Product Management
-145,2,Business Development
-146,6,Training
+144,6,philosophy
+145,2,Fisica
+146,6,Education
 147,6,Marketing
-148,2,Support
-149,6,Training
-150,6,Business Development
-151,6,Research and Development
-152,3,Research and Development
-153,3,Support
+148,2,Mathematics
+149,6,Education
+150,6,Fisica
+151,6,Law
+152,3,Law
+153,3,Mathematics
 154,2,Legal
-155,6,Product Management
-156,6,Research and Development
+155,6,philosophy
+156,6,Law
 157,4,Legal
 158,2,Sales
-159,2,Training
+159,2,Education
 160,6,Human Resources
-161,4,Business Development
-162,6,Business Development
+161,4,Fisica
+162,6,Fisica
 163,4,Accounting
 164,6,Accounting
 165,2,Sales
 166,3,Accounting
-167,4,Support
-168,6,Research and Development
+167,4,Mathematics
+168,6,Law
 169,3,Accounting
-170,6,Services
+170,6,Mathematics
 171,3,Human Resources
 172,3,Accounting
-173,3,Product Management
-174,2,Product Management
+173,3,philosophy
+174,2,philosophy
 175,6,Legal
-176,5,Training
-177,4,Training
+176,5,Education
+177,4,Education
 178,3,Engineering
 179,6,Human Resources
-180,4,Business Development
-181,2,Product Management
+180,4,Fisica
+181,2,philosophy
 182,4,Human Resources
-183,3,Research and Development
-184,6,Services
+183,3,Law
+184,6,Mathematics
 185,3,Engineering
-186,6,Training
-187,5,Training
-188,6,Support
+186,6,Education
+187,5,Education
+188,6,Mathematics
 189,2,Human Resources
-190,5,Training
+190,5,Education
 191,6,Legal
 192,6,Accounting
-193,2,Training
-194,4,Product Management
+193,2,Education
+194,4,philosophy
 195,6,Marketing
-196,5,Training
-197,4,Training
-198,3,Business Development
+196,5,Education
+197,4,Education
+198,3,Fisica
 199,5,Legal
-200,5,Services
+200,5,Mathematics
 201,5,Marketing
 202,3,Legal
 203,5,Engineering
-204,4,Training
-205,6,Business Development
-206,6,Product Management
-207,3,Services
+204,4,Education
+205,6,Fisica
+206,6,philosophy
+207,3,Mathematics
 208,2,Human Resources
 209,2,Legal
 210,5,Engineering
-211,6,Business Development
-212,6,Business Development
-213,3,Business Development
+211,6,Fisica
+212,6,Fisica
+213,3,Fisica
 214,3,Marketing
-215,2,Support
-216,5,Product Management
+215,2,Mathematics
+216,5,philosophy
 217,4,Legal
 218,6,Engineering
-219,5,Research and Development
+219,5,Law
 220,3,Accounting
-221,2,Product Management
+221,2,philosophy
 222,6,Engineering
 223,6,Accounting
 224,4,Engineering
 225,3,Marketing
-226,2,Business Development
-227,6,Product Management
-228,5,Business Development
+226,2,Fisica
+227,6,philosophy
+228,5,Fisica
 229,6,Marketing
-230,2,Services
-231,2,Services
-232,6,Business Development
-233,4,Business Development
-234,2,Services
-235,5,Services
+230,2,Mathematics
+231,2,Mathematics
+232,6,Fisica
+233,4,Fisica
+234,2,Mathematics
+235,5,Mathematics
 236,3,Human Resources
 237,6,Accounting
 238,4,Marketing
-239,6,Research and Development
+239,6,Law
 240,6,Legal
 241,4,Engineering
 242,2,Legal
-243,3,Services
+243,3,Mathematics
 244,3,Accounting
 245,4,Legal
 246,3,Sales
-247,5,Services
+247,5,Mathematics
 248,2,Marketing
 249,2,Legal
-250,4,Services
-251,4,Support
+250,4,Mathematics
+251,4,Mathematics
 252,4,Accounting
 253,4,Engineering
 254,5,Engineering
-255,3,Business Development
+255,3,Fisica
 256,3,Sales
-257,6,Research and Development
-258,6,Business Development
+257,6,Law
+258,6,Fisica
 259,6,Human Resources
-260,3,Product Management
+260,3,philosophy
 261,4,Human Resources
-262,4,Research and Development
+262,4,Law
 263,2,Human Resources
-264,3,Services
-265,2,Business Development
+264,3,Mathematics
+265,2,Fisica
 266,6,Human Resources
-267,3,Product Management
-268,6,Business Development
-269,2,Support
+267,3,philosophy
+268,6,Fisica
+269,2,Mathematics
 270,3,Accounting
-271,3,Product Management
-272,6,Services
-273,2,Business Development
+271,3,philosophy
+272,6,Mathematics
+273,2,Fisica
 274,6,Accounting
 275,3,Human Resources
 276,3,Marketing
 277,2,Human Resources
-278,5,Support
-279,3,Support
+278,5,Mathematics
+279,3,Mathematics
 280,4,Sales
 281,6,Engineering
 282,2,Human Resources
 283,6,Accounting
-284,2,Product Management
-285,2,Product Management
-286,4,Support
+284,2,philosophy
+285,2,philosophy
+286,4,Mathematics
 287,6,Engineering
-288,3,Business Development
+288,3,Fisica
 289,6,Human Resources
 290,3,Engineering
-291,4,Support
-292,2,Business Development
-293,3,Business Development
-294,3,Product Management
-295,6,Business Development
+291,4,Mathematics
+292,2,Fisica
+293,3,Fisica
+294,3,philosophy
+295,6,Fisica
 296,3,Human Resources
-297,2,Product Management
-298,6,Support
-299,2,Business Development
-300,5,Support
+297,2,philosophy
+298,6,Mathematics
+299,2,Fisica
+300,5,Mathematics
 301,5,Sales
 302,4,Sales
 303,4,Marketing
 304,3,Marketing
-305,5,Services
+305,5,Mathematics
 306,3,Engineering
-307,3,Training
-308,4,Support
-309,6,Services
+307,3,Education
+308,4,Mathematics
+309,6,Mathematics
 310,3,Sales
-311,4,Support
+311,4,Mathematics
 312,3,Marketing
-313,5,Training
+313,5,Education
 314,3,Sales
-315,3,Training
-316,6,Business Development
-317,2,Services
-318,3,Business Development
+315,3,Education
+316,6,Fisica
+317,2,Mathematics
+318,3,Fisica
 319,6,Marketing
 320,3,Engineering
 321,6,Marketing
@@ -324,677 +324,677 @@
 324,6,Marketing
 325,4,Accounting
 326,3,Sales
-327,3,Business Development
+327,3,Fisica
 328,5,Human Resources
-329,3,Services
-330,3,Training
-331,2,Research and Development
-332,2,Services
+329,3,Mathematics
+330,3,Education
+331,2,Law
+332,2,Mathematics
 333,2,Engineering
-334,6,Services
+334,6,Mathematics
 335,3,Legal
 336,6,Marketing
-337,3,Product Management
+337,3,philosophy
 338,2,Accounting
 339,6,Accounting
 340,3,Legal
 341,2,Human Resources
-342,2,Product Management
+342,2,philosophy
 343,4,Accounting
-344,2,Business Development
+344,2,Fisica
 345,2,Human Resources
-346,5,Support
+346,5,Mathematics
 347,2,Accounting
-348,2,Services
-349,5,Product Management
-350,2,Training
-351,5,Research and Development
+348,2,Mathematics
+349,5,philosophy
+350,2,Education
+351,5,Law
 352,4,Accounting
-353,6,Services
+353,6,Mathematics
 354,3,Accounting
 355,4,Marketing
-356,3,Research and Development
-357,5,Business Development
-358,5,Business Development
-359,3,Support
+356,3,Law
+357,5,Fisica
+358,5,Fisica
+359,3,Mathematics
 360,6,Engineering
 361,6,Sales
-362,4,Support
-363,6,Product Management
+362,4,Mathematics
+363,6,philosophy
 364,6,Human Resources
 365,2,Human Resources
-366,2,Business Development
+366,2,Fisica
 367,2,Engineering
-368,3,Business Development
-369,3,Research and Development
-370,4,Business Development
+368,3,Fisica
+369,3,Law
+370,4,Fisica
 371,3,Human Resources
 372,3,Human Resources
-373,4,Product Management
+373,4,philosophy
 374,4,Human Resources
-375,5,Product Management
-376,2,Training
-377,5,Support
-378,5,Services
-379,3,Product Management
-380,4,Services
+375,5,philosophy
+376,2,Education
+377,5,Mathematics
+378,5,Mathematics
+379,3,philosophy
+380,4,Mathematics
 381,6,Sales
 382,5,Legal
 383,5,Accounting
-384,2,Training
-385,2,Research and Development
-386,2,Research and Development
-387,2,Business Development
+384,2,Education
+385,2,Law
+386,2,Law
+387,2,Fisica
 388,3,Legal
-389,3,Services
+389,3,Mathematics
 390,4,Accounting
-391,6,Product Management
+391,6,philosophy
 392,4,Engineering
-393,2,Support
-394,6,Training
-395,2,Product Management
-396,2,Research and Development
-397,5,Business Development
-398,2,Support
-399,5,Business Development
+393,2,Mathematics
+394,6,Education
+395,2,philosophy
+396,2,Law
+397,5,Fisica
+398,2,Mathematics
+399,5,Fisica
 400,2,Human Resources
 401,3,Marketing
 402,6,Accounting
 403,5,Accounting
 404,2,Marketing
 405,2,Human Resources
-406,3,Product Management
-407,3,Training
-408,3,Support
+406,3,philosophy
+407,3,Education
+408,3,Mathematics
 409,4,Legal
-410,5,Training
-411,2,Research and Development
+410,5,Education
+411,2,Law
 412,2,Sales
-413,6,Support
-414,5,Services
-415,2,Training
+413,6,Mathematics
+414,5,Mathematics
+415,2,Education
 416,3,Sales
 417,3,Legal
-418,5,Product Management
-419,4,Services
-420,3,Training
-421,2,Product Management
-422,5,Business Development
-423,4,Training
-424,6,Services
-425,2,Support
+418,5,philosophy
+419,4,Mathematics
+420,3,Education
+421,2,philosophy
+422,5,Fisica
+423,4,Education
+424,6,Mathematics
+425,2,Mathematics
 426,3,Sales
 427,2,Human Resources
-428,5,Services
-429,4,Business Development
-430,2,Training
-431,3,Training
-432,2,Research and Development
-433,5,Research and Development
+428,5,Mathematics
+429,4,Fisica
+430,2,Education
+431,3,Education
+432,2,Law
+433,5,Law
 434,5,Human Resources
 435,3,Legal
 436,4,Human Resources
 437,6,Marketing
-438,3,Services
+438,3,Mathematics
 439,6,Marketing
 440,4,Sales
-441,3,Product Management
+441,3,philosophy
 442,3,Engineering
 443,2,Human Resources
-444,3,Product Management
+444,3,philosophy
 445,2,Engineering
-446,3,Support
+446,3,Mathematics
 447,6,Sales
 448,3,Engineering
-449,2,Business Development
+449,2,Fisica
 450,5,Legal
-451,3,Research and Development
+451,3,Law
 452,5,Accounting
-453,6,Research and Development
+453,6,Law
 454,3,Human Resources
-455,5,Services
+455,5,Mathematics
 456,6,Legal
-457,2,Services
-458,6,Product Management
-459,6,Product Management
-460,4,Training
-461,5,Services
-462,6,Support
-463,5,Product Management
-464,3,Support
-465,3,Research and Development
-466,4,Support
+457,2,Mathematics
+458,6,philosophy
+459,6,philosophy
+460,4,Education
+461,5,Mathematics
+462,6,Mathematics
+463,5,philosophy
+464,3,Mathematics
+465,3,Law
+466,4,Mathematics
 467,2,Marketing
-468,3,Research and Development
-469,3,Research and Development
-470,4,Training
-471,4,Support
-472,3,Training
-473,6,Product Management
-474,3,Services
+468,3,Law
+469,3,Law
+470,4,Education
+471,4,Mathematics
+472,3,Education
+473,6,philosophy
+474,3,Mathematics
 475,4,Accounting
 476,6,Sales
 477,6,Marketing
-478,4,Product Management
+478,4,philosophy
 479,2,Accounting
 480,3,Human Resources
 481,3,Human Resources
-482,5,Product Management
+482,5,philosophy
 483,5,Legal
 484,4,Legal
 485,3,Accounting
-486,2,Support
+486,2,Mathematics
 487,2,Accounting
 488,2,Human Resources
 489,6,Marketing
 490,4,Legal
-491,5,Research and Development
+491,5,Law
 492,6,Legal
 493,6,Marketing
-494,3,Research and Development
-495,3,Support
-496,4,Research and Development
+494,3,Law
+495,3,Mathematics
+496,4,Law
 497,3,Accounting
 498,6,Human Resources
-499,4,Services
-500,3,Training
-501,4,Services
+499,4,Mathematics
+500,3,Education
+501,4,Mathematics
 502,3,Accounting
 503,5,Legal
 504,6,Human Resources
-505,2,Services
+505,2,Mathematics
 506,2,Legal
-507,4,Product Management
-508,2,Research and Development
-509,6,Services
-510,5,Research and Development
+507,4,philosophy
+508,2,Law
+509,6,Mathematics
+510,5,Law
 511,2,Sales
-512,5,Product Management
-513,4,Services
+512,5,philosophy
+513,4,Mathematics
 514,6,Sales
 515,3,Sales
 516,3,Sales
 517,3,Legal
 518,2,Legal
-519,2,Product Management
-520,3,Business Development
-521,4,Business Development
+519,2,philosophy
+520,3,Fisica
+521,4,Fisica
 522,5,Legal
 523,5,Legal
 524,2,Engineering
-525,2,Business Development
-526,4,Support
+525,2,Fisica
+526,4,Mathematics
 527,2,Human Resources
-528,3,Research and Development
-529,4,Support
-530,4,Product Management
+528,3,Law
+529,4,Mathematics
+530,4,philosophy
 531,6,Marketing
 532,6,Legal
 533,6,Accounting
-534,2,Support
-535,3,Business Development
+534,2,Mathematics
+535,3,Fisica
 536,3,Marketing
 537,4,Sales
 538,4,Marketing
 539,6,Engineering
 540,2,Legal
-541,2,Product Management
+541,2,philosophy
 542,2,Marketing
 543,4,Legal
 544,4,Engineering
-545,3,Training
+545,3,Education
 546,2,Sales
-547,2,Services
+547,2,Mathematics
 548,4,Engineering
-549,4,Product Management
+549,4,philosophy
 550,5,Sales
-551,5,Business Development
+551,5,Fisica
 552,6,Accounting
-553,2,Research and Development
-554,6,Product Management
+553,2,Law
+554,6,philosophy
 555,2,Engineering
-556,4,Research and Development
+556,4,Law
 557,2,Accounting
 558,4,Engineering
-559,6,Product Management
-560,3,Business Development
+559,6,philosophy
+560,3,Fisica
 561,5,Sales
-562,3,Research and Development
+562,3,Law
 563,4,Human Resources
 564,2,Legal
 565,5,Sales
-566,3,Services
-567,6,Services
+566,3,Mathematics
+567,6,Mathematics
 568,4,Human Resources
-569,3,Training
+569,3,Education
 570,4,Accounting
-571,3,Training
+571,3,Education
 572,2,Accounting
-573,4,Training
-574,3,Training
+573,4,Education
+574,3,Education
 575,6,Human Resources
 576,4,Accounting
-577,6,Business Development
-578,4,Training
-579,3,Support
+577,6,Fisica
+578,4,Education
+579,3,Mathematics
 580,6,Sales
-581,4,Product Management
+581,4,philosophy
 582,2,Legal
-583,4,Business Development
+583,4,Fisica
 584,5,Marketing
 585,6,Accounting
-586,5,Services
-587,5,Research and Development
-588,5,Product Management
-589,6,Business Development
+586,5,Mathematics
+587,5,Law
+588,5,philosophy
+589,6,Fisica
 590,5,Sales
 591,4,Human Resources
-592,4,Research and Development
-593,4,Support
-594,6,Training
-595,3,Services
+592,4,Law
+593,4,Mathematics
+594,6,Education
+595,3,Mathematics
 596,2,Accounting
-597,6,Support
+597,6,Mathematics
 598,6,Legal
 599,4,Human Resources
-600,6,Support
-601,4,Business Development
+600,6,Mathematics
+601,4,Fisica
 602,4,Marketing
-603,3,Research and Development
-604,6,Support
-605,6,Business Development
+603,3,Law
+604,6,Mathematics
+605,6,Fisica
 606,4,Engineering
 607,4,Legal
-608,6,Research and Development
+608,6,Law
 609,6,Engineering
-610,6,Product Management
+610,6,philosophy
 611,4,Marketing
-612,5,Business Development
-613,5,Support
-614,2,Product Management
-615,4,Services
+612,5,Fisica
+613,5,Mathematics
+614,2,philosophy
+615,4,Mathematics
 616,3,Accounting
-617,3,Product Management
+617,3,philosophy
 618,6,Legal
-619,6,Training
-620,4,Services
-621,5,Product Management
-622,6,Research and Development
+619,6,Education
+620,4,Mathematics
+621,5,philosophy
+622,6,Law
 623,5,Accounting
 624,6,Human Resources
 625,5,Marketing
 626,6,Legal
-627,3,Training
-628,4,Support
+627,3,Education
+628,4,Mathematics
 629,6,Human Resources
 630,5,Sales
-631,2,Training
-632,2,Training
-633,5,Support
-634,5,Product Management
+631,2,Education
+632,2,Education
+633,5,Mathematics
+634,5,philosophy
 635,6,Legal
-636,5,Research and Development
-637,6,Training
+636,5,Law
+637,6,Education
 638,6,Marketing
-639,4,Research and Development
+639,4,Law
 640,4,Engineering
-641,4,Research and Development
+641,4,Law
 642,3,Engineering
 643,5,Legal
 644,3,Accounting
-645,2,Services
+645,2,Mathematics
 646,6,Marketing
-647,2,Business Development
+647,2,Fisica
 648,5,Sales
-649,3,Training
-650,4,Training
-651,2,Services
+649,3,Education
+650,4,Education
+651,2,Mathematics
 652,2,Engineering
-653,6,Training
+653,6,Education
 654,2,Human Resources
-655,2,Research and Development
+655,2,Law
 656,4,Legal
-657,6,Services
-658,6,Services
+657,6,Mathematics
+658,6,Mathematics
 659,6,Marketing
 660,5,Marketing
 661,2,Marketing
-662,2,Training
-663,6,Training
+662,2,Education
+663,6,Education
 664,4,Legal
 665,5,Human Resources
-666,5,Research and Development
-667,4,Services
+666,5,Law
+667,4,Mathematics
 668,4,Accounting
-669,5,Services
+669,5,Mathematics
 670,6,Human Resources
 671,4,Legal
-672,6,Training
-673,2,Research and Development
-674,4,Support
-675,2,Research and Development
+672,6,Education
+673,2,Law
+674,4,Mathematics
+675,2,Law
 676,5,Accounting
 677,4,Legal
 678,5,Accounting
 679,5,Human Resources
 680,2,Engineering
-681,4,Services
+681,4,Mathematics
 682,3,Engineering
 683,2,Marketing
-684,6,Support
-685,3,Services
+684,6,Mathematics
+685,3,Mathematics
 686,6,Marketing
-687,3,Business Development
-688,3,Research and Development
-689,4,Services
+687,3,Fisica
+688,3,Law
+689,4,Mathematics
 690,5,Accounting
-691,3,Business Development
+691,3,Fisica
 692,3,Accounting
-693,3,Training
+693,3,Education
 694,6,Human Resources
 695,5,Marketing
 696,6,Marketing
-697,5,Research and Development
+697,5,Law
 698,4,Legal
-699,5,Business Development
-700,4,Business Development
-701,6,Research and Development
+699,5,Fisica
+700,4,Fisica
+701,6,Law
 702,6,Engineering
-703,3,Training
-704,6,Training
-705,6,Support
+703,3,Education
+704,6,Education
+705,6,Mathematics
 706,4,Legal
-707,4,Services
+707,4,Mathematics
 708,2,Marketing
-709,3,Training
+709,3,Education
 710,4,Accounting
 711,5,Accounting
-712,2,Business Development
-713,6,Support
+712,2,Fisica
+713,6,Mathematics
 714,6,Legal
-715,5,Training
-716,3,Business Development
-717,6,Business Development
-718,5,Training
+715,5,Education
+716,3,Fisica
+717,6,Fisica
+718,5,Education
 719,3,Legal
 720,4,Human Resources
-721,2,Services
-722,3,Product Management
+721,2,Mathematics
+722,3,philosophy
 723,3,Human Resources
-724,2,Services
-725,2,Business Development
+724,2,Mathematics
+725,2,Fisica
 726,3,Engineering
-727,2,Training
+727,2,Education
 728,3,Human Resources
 729,4,Accounting
 730,4,Engineering
-731,4,Business Development
+731,4,Fisica
 732,3,Accounting
 733,3,Sales
-734,4,Research and Development
+734,4,Law
 735,3,Engineering
 736,5,Sales
-737,6,Services
-738,3,Business Development
-739,2,Product Management
+737,6,Mathematics
+738,3,Fisica
+739,2,philosophy
 740,4,Legal
-741,2,Research and Development
-742,2,Services
+741,2,Law
+742,2,Mathematics
 743,3,Human Resources
 744,3,Marketing
 745,3,Engineering
-746,5,Services
+746,5,Mathematics
 747,3,Human Resources
-748,6,Support
-749,2,Business Development
-750,4,Services
-751,4,Research and Development
+748,6,Mathematics
+749,2,Fisica
+750,4,Mathematics
+751,4,Law
 752,3,Sales
-753,2,Product Management
+753,2,philosophy
 754,6,Legal
-755,4,Training
-756,4,Research and Development
+755,4,Education
+756,4,Law
 757,3,Human Resources
-758,3,Support
-759,4,Support
-760,5,Services
-761,5,Training
-762,6,Research and Development
+758,3,Mathematics
+759,4,Mathematics
+760,5,Mathematics
+761,5,Education
+762,6,Law
 763,4,Marketing
-764,2,Business Development
-765,2,Services
+764,2,Fisica
+765,2,Mathematics
 766,3,Engineering
-767,2,Training
-768,6,Services
+767,2,Education
+768,6,Mathematics
 769,6,Sales
 770,2,Accounting
 771,3,Sales
 772,3,Marketing
-773,4,Research and Development
+773,4,Law
 774,5,Human Resources
 775,4,Human Resources
-776,5,Support
+776,5,Mathematics
 777,5,Marketing
-778,3,Services
+778,3,Mathematics
 779,2,Legal
 780,3,Marketing
-781,3,Services
-782,4,Research and Development
+781,3,Mathematics
+782,4,Law
 783,2,Marketing
 784,4,Engineering
 785,6,Sales
 786,3,Accounting
 787,6,Human Resources
-788,3,Business Development
-789,2,Business Development
-790,4,Support
+788,3,Fisica
+789,2,Fisica
+790,4,Mathematics
 791,6,Accounting
 792,3,Accounting
-793,6,Services
-794,4,Product Management
+793,6,Mathematics
+794,4,philosophy
 795,5,Accounting
 796,5,Human Resources
-797,3,Services
-798,6,Business Development
-799,3,Support
+797,3,Mathematics
+798,6,Fisica
+799,3,Mathematics
 800,4,Sales
 801,4,Accounting
 802,2,Legal
-803,4,Business Development
+803,4,Fisica
 804,6,Legal
 805,5,Human Resources
 806,4,Engineering
-807,3,Product Management
+807,3,philosophy
 808,3,Legal
 809,4,Engineering
-810,3,Services
-811,6,Product Management
+810,3,Mathematics
+811,6,philosophy
 812,6,Legal
-813,2,Business Development
-814,4,Product Management
+813,2,Fisica
+814,4,philosophy
 815,5,Accounting
 816,6,Legal
-817,5,Training
+817,5,Education
 818,6,Accounting
 819,2,Legal
 820,2,Sales
-821,3,Services
-822,5,Services
-823,2,Services
-824,2,Business Development
-825,6,Research and Development
+821,3,Mathematics
+822,5,Mathematics
+823,2,Mathematics
+824,2,Fisica
+825,6,Law
 826,2,Legal
 827,5,Sales
-828,5,Services
-829,2,Support
-830,4,Training
+828,5,Mathematics
+829,2,Mathematics
+830,4,Education
 831,2,Accounting
-832,2,Services
+832,2,Mathematics
 833,5,Sales
 834,2,Engineering
-835,6,Business Development
-836,6,Business Development
+835,6,Fisica
+836,6,Fisica
 837,3,Legal
 838,3,Sales
-839,6,Research and Development
-840,2,Services
-841,2,Services
-842,3,Training
+839,6,Law
+840,2,Mathematics
+841,2,Mathematics
+842,3,Education
 843,5,Accounting
 844,5,Human Resources
-845,5,Support
-846,6,Research and Development
-847,4,Services
-848,4,Product Management
-849,2,Product Management
-850,3,Services
-851,5,Services
+845,5,Mathematics
+846,6,Law
+847,4,Mathematics
+848,4,philosophy
+849,2,philosophy
+850,3,Mathematics
+851,5,Mathematics
 852,5,Engineering
 853,4,Engineering
-854,2,Research and Development
+854,2,Law
 855,6,Marketing
 856,4,Legal
 857,5,Sales
 858,2,Sales
 859,3,Accounting
-860,6,Business Development
+860,6,Fisica
 861,3,Sales
 862,3,Marketing
-863,5,Support
-864,6,Business Development
+863,5,Mathematics
+864,6,Fisica
 865,4,Human Resources
 866,4,Legal
 867,4,Engineering
 868,5,Accounting
 869,5,Human Resources
-870,5,Business Development
+870,5,Fisica
 871,6,Human Resources
-872,6,Training
-873,3,Product Management
+872,6,Education
+873,3,philosophy
 874,2,Sales
 875,5,Marketing
-876,4,Business Development
+876,4,Fisica
 877,3,Human Resources
 878,5,Sales
 879,6,Engineering
-880,6,Support
-881,4,Training
+880,6,Mathematics
+881,4,Education
 882,2,Accounting
 883,5,Legal
 884,4,Legal
 885,3,Sales
 886,6,Engineering
 887,2,Engineering
-888,2,Research and Development
-889,2,Training
-890,6,Research and Development
+888,2,Law
+889,2,Education
+890,6,Law
 891,6,Human Resources
-892,5,Support
+892,5,Mathematics
 893,3,Sales
 894,6,Sales
 895,2,Human Resources
-896,2,Business Development
+896,2,Fisica
 897,6,Sales
 898,3,Legal
-899,5,Services
+899,5,Mathematics
 900,5,Human Resources
 901,5,Human Resources
 902,5,Legal
-903,3,Support
-904,4,Business Development
+903,3,Mathematics
+904,4,Fisica
 905,5,Legal
-906,2,Business Development
+906,2,Fisica
 907,2,Accounting
 908,3,Marketing
 909,5,Sales
 910,4,Sales
 911,2,Marketing
 912,2,Sales
-913,3,Product Management
-914,4,Training
+913,3,philosophy
+914,4,Education
 915,4,Marketing
-916,4,Product Management
+916,4,philosophy
 917,2,Sales
 918,3,Marketing
 919,6,Marketing
-920,3,Support
+920,3,Mathematics
 921,3,Sales
-922,6,Business Development
-923,4,Services
+922,6,Fisica
+923,4,Mathematics
 924,6,Legal
 925,2,Legal
 926,3,Engineering
-927,3,Services
-928,4,Business Development
-929,6,Services
+927,3,Mathematics
+928,4,Fisica
+929,6,Mathematics
 930,2,Accounting
 931,5,Marketing
-932,5,Business Development
-933,5,Research and Development
-934,6,Training
+932,5,Fisica
+933,5,Law
+934,6,Education
 935,3,Sales
 936,6,Marketing
 937,6,Legal
-938,3,Services
-939,3,Product Management
+938,3,Mathematics
+939,3,philosophy
 940,4,Marketing
-941,5,Business Development
+941,5,Fisica
 942,5,Marketing
 943,4,Marketing
-944,3,Product Management
+944,3,philosophy
 945,6,Sales
 946,5,Sales
 947,4,Marketing
-948,5,Research and Development
-949,5,Business Development
+948,5,Law
+949,5,Fisica
 950,3,Legal
 951,4,Accounting
 952,4,Legal
 953,5,Engineering
 954,2,Marketing
-955,4,Research and Development
+955,4,Law
 956,5,Legal
-957,3,Training
+957,3,Education
 958,6,Human Resources
 959,5,Legal
-960,3,Training
+960,3,Education
 961,6,Human Resources
-962,3,Support
+962,3,Mathematics
 963,4,Marketing
-964,4,Research and Development
+964,4,Law
 965,6,Engineering
 966,4,Marketing
-967,6,Support
+967,6,Mathematics
 968,4,Engineering
 969,5,Engineering
-970,3,Product Management
+970,3,philosophy
 971,3,Marketing
 972,4,Marketing
-973,5,Training
-974,3,Support
-975,5,Support
+973,5,Education
+974,3,Mathematics
+975,5,Mathematics
 976,5,Engineering
 977,5,Marketing
 978,5,Human Resources
-979,5,Support
-980,2,Training
-981,3,Business Development
-982,4,Product Management
-983,4,Services
+979,5,Mathematics
+980,2,Education
+981,3,Fisica
+982,4,philosophy
+983,4,Mathematics
 984,3,Legal
-985,3,Business Development
-986,4,Support
-987,3,Training
-988,3,Support
-989,6,Business Development
-990,3,Research and Development
+985,3,Fisica
+986,4,Mathematics
+987,3,Education
+988,3,Mathematics
+989,6,Fisica
+990,3,Law
 991,3,Accounting
 992,4,Marketing
 993,5,Legal
 994,6,Accounting
-995,4,Services
+995,4,Mathematics
 996,2,Sales
 997,3,Legal
 998,5,Marketing
 999,4,Human Resources
-1000,4,Business Development
+1000,4,Fisica

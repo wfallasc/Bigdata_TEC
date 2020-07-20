@@ -100,7 +100,7 @@ def test_NoValidWhereParameter(spark_session):
 
 def test_NoValidStudentParameter(spark_session):
     
-    #validar que al mandar cualquier parametro en el where no bote la funcion
+    #validar que al mandar cualquier parametro en el dataframe de estudiante no bote la funcion
     schema_grades = StructType([StructField('carnet', IntegerType()),
                          StructField('cod_curso', IntegerType()),
                          StructField('nota', FloatType())])
@@ -122,7 +122,8 @@ def test_NoValidStudentParameter(spark_session):
 
 def test_NoValidGradesParameter(spark_session):
     
-    #validar que al mandar cualquier parametro en el where no bote la funcion
+    #validar que al mandar un parametro no valido en el dataset de notas no bote la funcion, 
+    #debe retornar un dataframe vacio 
     schema_grades = StructType([StructField('carnet', IntegerType()),
                          StructField('cod_curso', IntegerType()),
                          StructField('nota', FloatType())])
@@ -190,7 +191,7 @@ def test_Add_calculatedColums(spark_session):
 
 
 def test_NoValidParameterAddCalculatedColum(spark_session):
-    
+    #valida que la funcion no falle si se manda cualquier parametro como dataframe
     my_emptyResult = AddCalculatedColumns('',spark_session)
     
     assert my_emptyResult.count() == 0
@@ -200,7 +201,7 @@ def test_NoValidParameterAddCalculatedColum(spark_session):
 
 def test_Add_calculatedColumWithNullValues(spark_session):
     
-    #validar si la nueva columna calculada existe en el datraframe
+    #validar que la funcion no falle ciando se le mandan valores nulos
     StudentGrades_data = [(1,'test student 1', 'medicina',1,1,70,1,'null','null'), 
                           (1,'test student 1', 'medicina',1,1,80,1,'null','null')]
     StudentGrade_ds = spark_session.createDataFrame(StudentGrades_data,
@@ -218,7 +219,7 @@ def test_Add_calculatedColumWithNullValues(spark_session):
 
 
 def test_NoValidParameterGetGroupByNameAndCareer(spark_session):
-    
+    #validar que no falle si enviar parametros no validos
     my_emptyResult = GetGroupByNameAndCareer('',spark_session)
     
     assert my_emptyResult.count() == 0
@@ -226,7 +227,7 @@ def test_NoValidParameterGetGroupByNameAndCareer(spark_session):
 
 
 def test_GetGroupByNameAndCareer_NoValidCreditos(spark_session):
-    # check possible division by 0 in sum creditos
+    # validad posible division por cero en la columna de creditos
     data = [(1,'test student 1', 'medicina',1,1,70,1,0,'medicina',0), 
                           (2,'test student 2', 'medicina',1,1,80,1,0,'medicina',0)]
     df = spark_session.createDataFrame(data,
@@ -239,7 +240,7 @@ def test_GetGroupByNameAndCareer_NoValidCreditos(spark_session):
     print ("test_GetGroupByNameAndCareer_emptyFrame OK")
 
 def test_GetGroupByNameAndCareer_EmpyFrame(spark_session):
-    # check possible division by 0 in sum creditos
+    # validar la funcion de agrupar, no debe fallar aunque se le mande un dataframe vacio
     
     schema = StructType([StructField('Carnet', IntegerType()),
                          StructField('nombre', StringType()),
@@ -262,6 +263,58 @@ def test_GetGroupByNameAndCareer_EmpyFrame(spark_session):
     print ("test_GetGroupByNameAndCareer_EmpyFrame OK")
 
 
+
+def test_JoinTemporalUnionsStudentswithNoCourses(spark_session):
+    #validar join de estudianates que no ha llevado cursos, debe retornar el estudiante con la nota en nulo
+
+    schemaStudents = StructType([StructField('Carnet', IntegerType()),
+                          StructField('nombre', StringType()),
+                         StructField('carrera', StringType()),
+                         StructField('carnet_curso', IntegerType()),
+                         StructField('cod_curso', IntegerType())])
+    
+    schemaGrades = StructType([StructField('carnet_curso', IntegerType()),
+                         StructField('cod_curso', IntegerType()),
+                         StructField('nota', FloatType())])
+    
+    dataStudent = [( 1 ,"Ociquito Bravo", "Medicina", 1 ,1), 
+                    ( 2, "Yoyito" , "Fisica",0,0)]
+    
+
+    #yoyito no tiene notas  en la carrera de fisica
+    DataGrades= [( 1 ,1, 70.0)]
+    
+    dfStudent = spark_session.createDataFrame(dataStudent,schemaStudents)
+    dfGrades = spark_session.createDataFrame(DataGrades,schemaGrades)
+    
+    expression =  dfStudent.Carnet==dfGrades.carnet_curso
+    dfUnion = Join_StudentGrades(dfStudent,dfGrades,expression,spark_session)
+
+    
+    schemaResult = StructType([StructField('Carnet', IntegerType()),
+                          StructField('nombre', StringType()),
+                         StructField('carrera', StringType()),
+                         StructField('carnet_curso', IntegerType()),
+                         StructField('cod_curso', IntegerType()),
+                         StructField('carnet_curso', IntegerType()),
+                         StructField('cod_curso', IntegerType()),
+                         StructField('nota', FloatType())])
+
+    
+    expected_ds = spark_session.createDataFrame(
+        [
+            (1,"Ociquito Bravo","Medicina",1, 1,1,1,70.0),
+            (2,"Yoyito" ,"Fisica", 0, 0 , None, None, None)
+        ],schemaResult)
+
+    
+    assert dfUnion.collect() == expected_ds.collect()
+    
+    print ("test_JoinTemporalUnionsStudentswithNoCourses OK")
+
+
+
+
 def test_GetGroupByNameAndCareer_ByNullValues(spark_session):
     # check wint two empty rows, expected row count =1
     data = [(1,'', '',1,1,70,1,0,'',0), 
@@ -277,7 +330,7 @@ def test_GetGroupByNameAndCareer_ByNullValues(spark_session):
 
 
 def test_getPathsWithoutArgs():
-    
+    #valida si la funcion de obtener parametros de consola no falle, debe devolver los path por defecto
     path1,path2,path3 =  getArgsPath()
 
     assert (len(path1) > 0) &   (len(path2) > 0) &  (len(path3) > 0)
@@ -285,7 +338,7 @@ def test_getPathsWithoutArgs():
 
 
 def test_NoValidParameterGetTopByCareer(spark_session):
-    
+    #Validar parametros no validos en la funcion de obtener las notas por carrera
     my_emptyResult = GetTopByCareer('',spark_session)
     
     my_emptyResult.show()
@@ -294,6 +347,7 @@ def test_NoValidParameterGetTopByCareer(spark_session):
     print ("test_NoValidParameterGetTopByCareer OK")
 
 def test_EmptyDFGetTopByCareer(spark_session):
+    #obtener top de un dataframe vacio
     schema = StructType([StructField('nombre', StringType()),
                          StructField('carrera', StringType()),
                          StructField('Notas_Creditos', FloatType()),
@@ -308,6 +362,7 @@ def test_EmptyDFGetTopByCareer(spark_session):
     print ("test_EmptyDFGetTopByCareer OK")
 
 def test_NormalDataGetTopByCareer(spark_session):
+    #Validar que los calculos sean correctos
     schema = StructType([StructField('nombre', StringType()),
                          StructField('carrera', StringType()),
                          StructField('Notas_Creditos', FloatType()),
@@ -412,10 +467,40 @@ def test_NullDataGetTopByCareer(spark_session):
     df = spark_session.createDataFrame(data,schema)
     actual_ds = GetTopByCareer(df,spark_session)
     
-
+    #retorna dos filas para la carrera de fisica??
     actual_ds=actual_ds.filter("carrera  == 'Fisica'")
     
     
     assert actual_ds.count() == 2
     
     print ("test_NullDataGetTopByCareer OK")
+
+
+def test_NoValidPathGet_CoursesDF(spark_session):
+    #validar q retorne un dataframe vacio si se manda un path no existente
+    my_emptyResult = Get_CoursesDF(spark_session,'fakepath')
+    
+    my_emptyResult.show()
+    
+    assert my_emptyResult.count() == 0
+    print ("test_NoValidPathGet_CoursesDF OK")
+
+
+def test_NoValidPathGet_GradesDF(spark_session):
+        #validar q retorne un dataframe vacio si se manda un path no existente
+    my_emptyResult = Get_GradesDF(spark_session,'fakepath')
+    
+    my_emptyResult.show()
+    
+    assert my_emptyResult.count() == 0
+    print ("test_NoValidPathGet_GradesDF OK")
+
+
+def test_NoValidPathGet_StudentsDF(spark_session):
+        #validar q retorne un dataframe vacio si se manda un path no existente
+    my_emptyResult = Get_StudentsDF(spark_session,'fakepath')
+    
+    my_emptyResult.show()
+    
+    assert my_emptyResult.count() == 0
+    print ("test_NoValidPathGet_StudentsDF OK")

@@ -47,7 +47,7 @@ DsFinal = GetTopByCareer(Df_GroupNotas,spark)
 cols = ['carrera','nombre','Promedio']
 DsFinal =  DsFinal.select(*cols)
 
-DsFinal.show()
+DsFinal.show(100)
 
 
 
