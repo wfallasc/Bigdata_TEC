@@ -12,7 +12,7 @@ from pyspark.sql.functions import rank, col
 
 
 def test_NoValidParameterGetGroupByNameAndCareer(spark_session):
-    #validar que no falle si enviar parametros no validos
+    #validar que no falle si se envian parametros no validos
     my_emptyResult = GetGroupByNameAndCareer('',spark_session)
     
     assert my_emptyResult.count() == 0
@@ -71,4 +71,19 @@ def test_GetGroupByNameAndCareer_ByNullValues(spark_session):
     assert actual_ds.count() == 1
     
     print ("test_GetGroupByNameAndCareer_NoValidCreditos OK")
+
+
+def test_GetGroupByNameAndCareer_NormalData(spark_session):
+    # group normal debe retornar una sola fila
+    data = [(1,'test student 1', 'medicina',1,1,70,1,0,'medicina',0), 
+                          (1,'test student 1', 'medicina',1,1,80,1,0,'medicina',0),
+			 (1,'test student 1', 'medicina',1,1,90,1,0,'medicina',0)]
+    df = spark_session.createDataFrame(data,
+                                              ['carnet', 'nombre','carrera','carnet_curso','cod_curso','nota','cod_curso',
+                                              'creditos','carrera_curso','Notas_Creditos'])
+    actual_ds = GetGroupByNameAndCareer(df,spark_session)
+    
+    assert actual_ds.count() == 1
+    
+    print ("test_GetGroupByNameAndCareer_NormalData OK")
 
